@@ -1,0 +1,48 @@
+body{
+  /* margin: 0; */
+  text-align: center;
+}
+h1, h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color:blue;
+    font-weight:bold;
+}
+
+
+.container img{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container img:hover{
+    opacity:0.7;
+}
+
+.modal{
+    width:100%;
+    height: auto;
+    display: none;/*this the display of the modal */
+    background-color: black;
+    position: relative;
+}
+.caption{
+    color:aliceblue;
+    padding: 20px;
+    font-size:25px;
+}
+.close{
+    color:aliceblue;
+    position:absolute;
+    right:20px;
+    top:10px;
+    font-size: 50px;
+}
+.close:hover{
+    color:cadetblue;
+    transition: 0.3s;
+    font-weight: bold;
+    cursor: pointer;
+
+}
