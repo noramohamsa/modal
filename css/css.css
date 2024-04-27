@@ -22,10 +22,15 @@ h1, h4{
 
 .modal{
     width:100%;
-    height: auto;
+    height: 100%;
     display: none;/*this the display of the modal */
     background-color: black;
-    position: relative;
+    position: fixed; /* Stay in place */
+     z-index: 1;
+     top:0;
+     left:0;
+     overflow:auto;
+
 }
 .caption{
     color:aliceblue;
